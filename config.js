@@ -66,6 +66,7 @@ global.APIKeys = { // APIKey Here
 // Sticker WM
 global.packname = '•𝑩𝑶𝑻 𝑺𝑬𝑻𝑺𝑼𝑵𝑨•'
 global.author = '𝑩𝒚 ঔৣ͜͡🔥͜͡𝑲𝒆𝒊𝒍𝒊 𝒔.𝒓🔥᮫꫶ฺ໋⃜𝆹𝅦ۣ𝄁᭄'
+global.author2 = 'menupruebas'
 
 global.wm = 'ঔৣ͜͡ீ͜❥🌺𝐁𝐎𝐓 𝐒𝐄𝐓︦︦𝐒𝐔𝐍𝐀˚₊ˑ'
 global.igfg = 'ঔৣ͜͡ீ͜❥🌺𝐁𝐎𝐓 𝐒𝐄𝐓︦︦𝐒𝐔𝐍𝐀˚₊ˑ'
