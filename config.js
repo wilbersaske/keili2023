@@ -67,6 +67,52 @@ global.APIKeys = { // APIKey Here
 global.packname = '•𝑩𝑶𝑻 𝑺𝑬𝑻𝑺𝑼𝑵𝑨•'
 global.author = '𝑩𝒚 ঔৣ͜͡🔥͜͡𝑲𝒆𝒊𝒍𝒊 𝒔.𝒓🔥᮫꫶ฺ໋⃜𝆹𝅦ۣ𝄁᭄'
 global.author2 = 'menupruebas'
+global.keili2022 = `*╭┅─═￭৯•𓆩❤︎𞋯𓆪•৯￭═─┅╮*
+┃ *🔥Hola ${name},*
+*╰┅─═￭৯•𓆩❤︎𞋯𓆪•৯￭═─┅╯*
+𖥔 ִ ۫  ּ ⋆ ִ ۫  ּ ⊹  ˑ ִ  ִֶָ  ִ ۫  ּ 𖥔 ִ ۫  ּ ⊹  ˑ  ִ ⋆ִ ۫  ּ ˑ ִ  ִֶָ
+┏━꯭━ׅ━꯭━ׅ━꯭━ׅ━꯭━ׅ━꯭━ׅ━┓
+┃    *M E N U + ANIME🦊*
+┃Hola, bienvenid@s  
+┃a mi blog en este blog
+┃subiré fanfics, series, imágenes y mucho más
+┃También daré recomendaciones de
+┃distintos animes de todo genero :D
+┃⢷⡪⢷⡪⢷⡪⢷⡪⢷⡪⢷⡪⢷⡪⢷⡪
+┣ ⸎⃟🦊 .nezuko
+┣ ⸎⃟🦊 .anime (randows)
+┣ ⸎⃟🦊 .kurumi
+┣ ⸎⃟🦊 .miku
+┣ ⸎⃟🦊 .itori
+┣ ⸎⃟🦊 .sasuke
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┗━꯭━ׅ━꯭━ׅ━꯭━ׅ━꯭━ׅ━꯭━ׅ━꯭┛
+𖥔 ִ ۫  ּ ⋆ ִ ۫  ּ ⊹  ˑ ִ  ִֶָ  ִ ۫  ּ 𖥔 ִ ۫  ּ ⊹  ˑ  ִ ⋆ִ ۫  ּ ˑ ִ  ִֶָ
+`*'
 
 global.wm = 'ঔৣ͜͡ீ͜❥🌺𝐁𝐎𝐓 𝐒𝐄𝐓︦︦𝐒𝐔𝐍𝐀˚₊ˑ'
 global.igfg = 'ঔৣ͜͡ீ͜❥🌺𝐁𝐎𝐓 𝐒𝐄𝐓︦︦𝐒𝐔𝐍𝐀˚₊ˑ'
