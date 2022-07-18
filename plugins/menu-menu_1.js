@@ -66,7 +66,7 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 let imagen1 = fs.readFileSync('./Menu2.jpg')
 let imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
 let imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
-footer: `╭═─═─═─═─═─═╮
+let text = `╭═─═─═─═─═─═╮
 ║   ঔৣ͜͡ீ͜❥🌺𝐁꯭𝐎꯭𝐓꯭ 𝐒꯭𝐄꯭𝐓︦︦𝐒꯭𝐔꯭𝐍꯭𝐀˚₊ˑ
 ║╰═─═─═─═─══╯
 ┠╮
@@ -356,7 +356,7 @@ jpegThumbnail: imagen1,
 caption: texto1,
 fileLength: "99999999999999",
 mentions:[m.sender, owner],
-
+footer: `𝔹𝕪 keili lucy chan`,
 buttons: buttons,
 headerType: 4,   
 contextInfo: {
