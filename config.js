@@ -67,52 +67,51 @@ global.APIKeys = { // APIKey Here
 global.packname = '•𝑩𝑶𝑻 𝑺𝑬𝑻𝑺𝑼𝑵𝑨•'
 global.author = '𝑩𝒚 ঔৣ͜͡🔥͜͡𝑲𝒆𝒊𝒍𝒊 𝒔.𝒓🔥᮫꫶ฺ໋⃜𝆹𝅦ۣ𝄁᭄'
 global.author2 = 'menupruebas'
-global.keili2022 = `*╭┅─═￭৯•𓆩❤︎𞋯𓆪•৯￭═─┅╮*
+global.keili2022 = let str = `*╭┅─═￭৯•𓆩❤︎𞋯𓆪•৯￭═─┅╮*
 ┃ *🔥Hola ${name},*
 *╰┅─═￭৯•𓆩❤︎𞋯𓆪•৯￭═─┅╯*
 𖥔 ִ ۫  ּ ⋆ ִ ۫  ּ ⊹  ˑ ִ  ִֶָ  ִ ۫  ּ 𖥔 ִ ۫  ּ ⊹  ˑ  ִ ⋆ִ ۫  ּ ˑ ִ  ִֶָ
 ┏━꯭━ׅ━꯭━ׅ━꯭━ׅ━꯭━ׅ━꯭━ׅ━┓
-┃    *M E N U + ANIME🦊*
-┃Hola, bienvenid@s  
-┃a mi blog en este blog
-┃subiré fanfics, series, imágenes y mucho más
-┃También daré recomendaciones de
-┃distintos animes de todo genero :D
+┃       *⮕ M E N U +🔞*
+┃Usar los comandos bajo
+┃su responsabilidad nome
+┃hago responsable del mal
+┃uso que se les pueda dar
 ┃⢷⡪⢷⡪⢷⡪⢷⡪⢷⡪⢷⡪⢷⡪⢷⡪
-┣ ⸎⃟🦊 .nezuko
-┣ ⸎⃟🦊 .anime (randows)
-┣ ⸎⃟🦊 .kurumi
-┣ ⸎⃟🦊 .miku
-┣ ⸎⃟🦊 .itori
-┣ ⸎⃟🦊 .sasuke
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🍑 .pack
+┣ ⸎⃟🍑 .pack2
+┣ ⸎⃟🍑 .pack3
+┣ ⸎⃟🍑 .videoxxx
+┣ ⸎⃟🍑 .tetas
+┣ ⸎⃟🍑 .booty
+┣ ⸎⃟🍑 .ecchi
+┣ ⸎⃟🍑 .furro
+┣ ⸎⃟🍑 .imagenlesbians
+┣ ⸎⃟🍑 .panties
+┣ ⸎⃟🍑 .pene
+┣ ⸎⃟🍑 .porno
+┣ ⸎⃟🍑 .porno2
+┣ ⸎⃟🍑 .randomxxx
+┣ ⸎⃟🍑 .pechos
+┣ ⸎⃟🍑 .yaoi
+┣ ⸎⃟🍑 .yaoi2
+┣ ⸎⃟🍑 .yuri
+┣ ⸎⃟🍑 .yuri2
+┣ ⸎⃟🍑 .trapito
+┣ ⸎⃟🍑 .hentai
+┣ ⸎⃟🍑 .pies
+┣ ⸎⃟🍑 .nsfwloli
+┣ ⸎⃟🍑 .nsfworgy
+┣ ⸎⃟🍑 .nsfwfoot
+┣ ⸎⃟🍑 .nsfwass
+┣ ⸎⃟🍑 .nsfwbdsm
+┣ ⸎⃟🍑 .nsfwcum
+┣ ⸎⃟🍑 .nsfwero
+┣ ⸎⃟🍑 .nsfwfemdom
+┣ ⸎⃟🍑 .nsfwglass
 ┗━꯭━ׅ━꯭━ׅ━꯭━ׅ━꯭━ׅ━꯭━ׅ━꯭┛
 𖥔 ִ ۫  ּ ⋆ ִ ۫  ּ ⊹  ˑ ִ  ִֶָ  ִ ۫  ּ 𖥔 ִ ۫  ּ ⊹  ˑ  ִ ⋆ִ ۫  ּ ˑ ִ  ִֶָ
-`*'
+`.trim()
 
 global.wm = 'ঔৣ͜͡ீ͜❥🌺𝐁𝐎𝐓 𝐒𝐄𝐓︦︦𝐒𝐔𝐍𝐀˚₊ˑ'
 global.igfg = 'ঔৣ͜͡ீ͜❥🌺𝐁𝐎𝐓 𝐒𝐄𝐓︦︦𝐒𝐔𝐍𝐀˚₊ˑ'
