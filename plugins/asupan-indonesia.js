@@ -1,5 +1,5 @@
 let handler = async (m, { conn, text, command }) => {
-    let yh = global.loli
+    let yh = global.indo
     let url = yh[Math.floor(Math.random() * yh.length)]
     conn.sendButton(m.chat, `ʀᴀɴᴅᴏᴍ ʟᴏʟɪ - ɪѕ ᴄᴜᴛᴇ 🥺`.trim(), author, url, [['🌷 𝐒 𝐈 𝐆 𝐔 𝐈 𝐄 𝐍 𝐓 𝐄 🌷 ', `/${command}`]], m)
   }
@@ -8,6 +8,6 @@ let handler = async (m, { conn, text, command }) => {
   handler.help = ['indo']
   export default handler
   
-  global.loli = [
+  global.indo = [
     "https://api.zacros.my.id/asupan/cecan",
   ]
