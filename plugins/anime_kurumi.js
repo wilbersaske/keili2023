@@ -1,5 +1,5 @@
 let handler = async (m, { conn, text, command }) => {
-    let yh = global.anime
+    let yh = global.kurumi
     let url = yh[Math.floor(Math.random() * yh.length)]
     conn.sendButton(m.chat, `ʀᴀɴᴅᴏᴍ kurumi - ɪѕ ᴄᴜᴛᴇ 🥺`.trim(), author, url, [['🍥 𝐒 𝐈 𝐆 𝐔 𝐈 𝐄 𝐍 𝐓 𝐄 🍥 ', `/${command}`]], m)
   }
@@ -8,6 +8,6 @@ let handler = async (m, { conn, text, command }) => {
   handler.help = ['kurumi']
   export default handler
   
-  global.anime = [
+  global.kurumi = [
     "https://api-reysekha.herokuapp.com/api/wallpaper/kurumi?apikey=APIKEY",
   ]
