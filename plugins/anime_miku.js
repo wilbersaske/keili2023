@@ -1,5 +1,5 @@
 let handler = async (m, { conn, text, command }) => {
-    let yh = global.anime
+    let yh = global.miku
     let url = yh[Math.floor(Math.random() * yh.length)]
     conn.sendButton(m.chat, `ʀᴀɴᴅᴏᴍ miku - ɪѕ ᴄᴜᴛᴇ 🥺`.trim(), author, url, [['🍥 𝐒 𝐈 𝐆 𝐔 𝐈 𝐄 𝐍 𝐓 𝐄 🍥 ', `/${command}`]], m)
   }
@@ -8,6 +8,6 @@ let handler = async (m, { conn, text, command }) => {
   handler.help = ['miku']
   export default handler
   
-  global.anime = [
+  global.miku = [
     "https://api-reysekha.herokuapp.com/api/wallpaper/miku?apikey=APIKEY",
   ]
