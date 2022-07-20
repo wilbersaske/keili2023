@@ -10,5 +10,5 @@ ptt: true })
 }
 handler.help = ['presentate']
 handler.tags = ['maker']
-handler.command = /^(fichadep)$/i
+handler.command = /^(ficha)$/i
 export default handler
