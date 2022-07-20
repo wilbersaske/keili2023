@@ -33,7 +33,7 @@ let str = `*╭┅─═￭৯•𓆩❤︎𞋯𓆪•৯￭═─┅╮*
 ┣ ⸎⃟🦊 .proximamente
 ┣ ⸎⃟🦊 .proximamente
 ┣ ⸎⃟🦊 .proximamente
-┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .videololi  (randow specials)
 ┣ ⸎⃟🦊 .proximamente
 ┣ ⸎⃟🦊 .proximamente
 ┣ ⸎⃟🦊 .proximamente
