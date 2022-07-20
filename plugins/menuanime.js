@@ -20,12 +20,43 @@ let str = `*╭┅─═￭৯•𓆩❤︎𞋯𓆪•৯￭═─┅╮*
 ┃distintos animes de todo genero :D
 ┃⢷⡪⢷⡪⢷⡪⢷⡪⢷⡪⢷⡪⢷⡪⢷⡪
 ┣ ⸎⃟🦊 .nezuko
+┣ ⸎⃟🦊 .anime (randows)
+┣ ⸎⃟🦊 .kurumi
+┣ ⸎⃟🦊 .miku
+┣ ⸎⃟🦊 .itori
+┣ ⸎⃟🦊 .sasuke
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┣ ⸎⃟🦊 .proximamente
+┗━꯭━ׅ━꯭━ׅ━꯭━ׅ━꯭━ׅ━꯭━ׅ━꯭┛
+𖥔 ִ ۫  ּ ⋆ ִ ۫  ּ ⊹  ˑ ִ  ִֶָ  ִ ۫  ּ 𖥔 ִ ۫  ּ ⊹  ˑ  ִ ⋆ִ ۫  ּ ˑ ִ  ִֶָ
 `.trim()
-conn.sendHydrated(m.chat, keili2022, 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/peru', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
 ['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
 ], m)
 }}
-
 handler.help = ['menu', 'help2', '?', 'menu2']
 handler.tags = ['main']
 handler.command = /^(menuanime)$/i
