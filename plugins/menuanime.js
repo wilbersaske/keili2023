@@ -2,6 +2,7 @@ const { levelling } = '../lib/levelling.js'
 import PhoneNumber from 'awesome-phonenumber'
 let handler = async (m, { conn, usedPrefix }) => {
 let pp = './src/anime.jpg'
+let vn = './media/presentate.mp3'
 try {
 } catch (e) {
 } finally {
@@ -53,7 +54,7 @@ let str = `*╭┅─═￭৯•𓆩❤︎𞋯𓆪•৯￭═─┅╮*
 ┗━꯭━ׅ━꯭━ׅ━꯭━ׅ━꯭━ׅ━꯭━ׅ━꯭┛
 𖥔 ִ ۫  ּ ⋆ ִ ۫  ּ ⊹  ˑ ִ  ִֶָ  ִ ۫  ּ 𖥔 ִ ۫  ּ ⊹  ˑ  ִ ⋆ִ ۫  ּ ˑ ִ  ִֶָ
 `.trim()
-conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/peru', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+conn.sendHydrated(m.chat, str, wm, pp, vn, 'https://github.com/peru', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
 ['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
 ], m)
 }}
