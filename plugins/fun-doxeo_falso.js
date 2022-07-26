@@ -13,7 +13,7 @@ await m.reply(boost5)
 let old = performance.now()
 let neww = performance.now()
 let speed = `${neww - old}`
-let doxeo = `*[ ✔ ] 𝙿𝙴𝚁𝚂𝙾𝙽𝙰 𝙳ESTRABA 𝙲𝙾𝙽 𝙴𝚇𝙸𝚃𝙾*\n*⏳ DESTRAVA 𝙴𝙽: ${speed} 𝚜𝚎𝚐𝚞𝚗𝚍𝚘𝚜!*
+let doxeo = `*[ ✔ ] DESTRABA 𝙲𝙾𝙽 𝙴𝚇𝙸𝚃𝙾*\n*🏴‍☠️ DESTRAVA 𝙴𝙽: ${speed} 𝚜𝚎𝚐𝚞𝚗𝚍𝚘𝚜!*
 
 *𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 𝙾𝙱𝚃𝙴𝙽𝙸𝙳𝙾𝚂:*
 
