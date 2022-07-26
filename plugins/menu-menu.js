@@ -62,7 +62,8 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
  
     
 
-let str = `
+let str = 
+`
 *🌺 𝙷𝙾𝙻𝙰 ✨${name}✨, 
 𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝙴𝙻 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 𝙳𝙴
  *Bot 2022*
