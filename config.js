@@ -5,9 +5,9 @@ import fs from 'fs'
 
 
 global.owner = [
-  ['5192063011', '👑keili lucy chan👑', true],
-  ['5192063011', '🤖 keili chang🤖', true],
-  ['5192063011']
+  ['51931651504', '👑keili lucy chan👑', true],
+  ['51931651504', '🤖 keili chang🤖', true],
+  ['51931651504']
 ] // Cambia los numeros que quieras
 global.mods = [] 
 global.prems = [] 
@@ -77,7 +77,20 @@ global.imagen2 = fs.readFileSync('./src/nuevobot.jpg')
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
 
 global.multiplier = 9999 
+global.wil = {
 
+Menu0
+Minyu1
+Minyuw2
+Minyuw3
+Minyu4
+
+Praa
+
+
+
+
+}
 global.rpg = {
   emoticon(string) {
     string = string.toLowerCase()
