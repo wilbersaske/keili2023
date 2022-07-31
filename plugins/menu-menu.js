@@ -449,10 +449,7 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 *Bot 2022*
  █║▌│█│║▌║││█║
 `.trim(YouTube,prueba)
-document.oncopy= {
-event.preventDefaul();
-evento.clipboardData('text/plain'
-`donde crees que pondrás ese menú pipilin! \n');
+document.oncopy = { event.preventdefault(); event.
 conn.sendHydrated2(m.chat, str, wm, pp,text 'https://youtu.be/BEzODBDiuMg', '❄️ youtube ❄️', 'https://github.com/', '❄️ 𝙶𝙸𝚃𝙷𝚄𝙱 ❄️', [
 ['🍁 𝙳𝙾𝙽𝙰𝚁 🍁', '/donasi'], 
  ['✨ 𝙾𝚆𝙽𝙴𝚁 ✨', '/owner'], 
