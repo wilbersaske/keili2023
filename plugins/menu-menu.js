@@ -62,7 +62,7 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
  
     
 
-let str  = 
+let text  = 
 
 `
 *🌺 𝙷𝙾𝙻𝙰 ✨${name}✨, 
@@ -449,7 +449,7 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 *Bot 2022*
  █║▌│█│║▌║││█║
 `.trim()
-conn.sendHydrated2(m.chat, str, wm, pp, 'https://youtu.be/BEzODBDiuMg', '❄️ youtube ❄️', 'https://github.com/', '❄️ 𝙶𝙸𝚃𝙷𝚄𝙱 ❄️', [
+conn.sendHydrated2(m.chat, str, wm, pp,text 'https://youtu.be/BEzODBDiuMg', '❄️ youtube ❄️', 'https://github.com/', '❄️ 𝙶𝙸𝚃𝙷𝚄𝙱 ❄️', [
 ['🍁 𝙳𝙾𝙽𝙰𝚁 🍁', '/donasi'], 
  ['✨ 𝙾𝚆𝙽𝙴𝚁 ✨', '/owner'], 
  ['🐲 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 🐲', '/infobot'] 
