@@ -77,11 +77,7 @@ global.imagen2 = fs.readFileSync('./src/nuevobot.jpg')
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
 
 global.multiplier = 9999 
-global.wil = {
-'Númeroone',
-'Menu0',
-'Minyu1',
-'Minyuw2',
+global.wil = {'Númeroone','Menu0','Minyu1','Minyuw2',
 'Minyuw3',
 'Minyu4',
 'Praa',
