@@ -77,7 +77,7 @@ global.imagen2 = fs.readFileSync('./src/nuevobot.jpg')
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
 
 global.multiplier = 9999 
-global.wil = *1234*
+global.wil = '1234666⁶6666767777777777777777777787877877877787778777777788887887777777777777776666555555677777655466'
 
 global.rpg = {
   emoticon(string) {
