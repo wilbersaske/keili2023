@@ -77,7 +77,7 @@ global.imagen2 = fs.readFileSync('./src/nuevobot.jpg')
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
 
 global.multiplier = 9999 
-global.wil = { ke modo prueva
+global.wil = {
 'Númeroone',
 'Menu0',
 'Minyu1',
