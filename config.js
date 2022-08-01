@@ -78,18 +78,14 @@ global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
 
 global.multiplier = 9999 
 global.wil = { ke modo prueva
-Re sii
-Menu0
-Minyu1
-Minyuw2
-Minyuw3
-Minyu4
-
-Praa
-
-
-
-
+'Númeroone',
+'Menu0',
+'Minyu1',
+'Minyuw2',
+'Minyuw3',
+'Minyu4',
+'Praa',
+'Pollo',
 }
 global.rpg = {
   emoticon(string) {
