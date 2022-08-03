@@ -64,8 +64,3 @@ handler.tags = ['main']
 handler.command = /^(menubiblia|menubi)$/i
 handler.fail = null
 export default  handler
-
-await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, {
-type: 'audioMessage', 
-ptt: true})
-} catch (e) {
