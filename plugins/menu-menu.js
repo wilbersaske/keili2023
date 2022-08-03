@@ -63,19 +63,19 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
     
 let str = 
 `*╭━━━〔 𝙈𝙀𝙉𝙐 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙊 〕━━━⬣*
-*┆⦒ 𓃠 𝙑𝙀𝙍𝙎𝙄𝙊𝙉 » ${vs}*
+*┆⦒ 𓃠 𝙑𝙀𝙍𝙎𝙄𝙊𝙉 » *
 *┆⦒ 𝙁𝙀𝘾𝙃𝘼 » ${week}, ${date}*
 *┆⦒ 𝙏𝙄𝙀𝙈𝙋𝙊 𝘼𝘾𝙏𝙄𝙑𝙊 » ${uptime}*
-*┆⦒ 𝙐𝙎𝙐𝘼𝙍𝙄𝙊𝙎 » ${Object.keys(global.db.data.users).length}*
+*┆⦒ 𝙐𝙎𝙐𝘼𝙍𝙄𝙊𝙎 » $*
 *╰*┅┅┅┅┅┅┅┅┅┅┅┅┅ *✧* 
 
-*╭━〔* ${username} *〕━━⬣*
+*╭━〔* ${name} *〕━━⬣*
 *┆🧰 EXPERIENCIA ➟ ${exp}*
-*┆🎖️ NIVEL ➟ ${level} || ${user.exp - min}/${xp}*
+*┆🎖️ NIVEL ➟ ${level} ||*
 *┆⚓ RANGO ➟* ${role}
 *┆💎 DIAMANTES ➟ ${limit}*
-*┆🐈 GATACOINS ➟ ${money}*
-*┆🎟️ PREMIUM ➟* ${global.prem ? '✅' : '❌'}
+*┆🐈 GATACOINS ➟ *
+*┆🎟️ PREMIUM ➟* 
 *╰*┅┅┅┅┅┅┅┅┅┅┅┅┅ *✧*
 ${readMore}
 *╭━〔 INFORMACIÓN DE GATABOT 〕━⬣*
