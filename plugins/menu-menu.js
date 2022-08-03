@@ -61,10 +61,403 @@ readmore: readMore
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
  
     
-let str = `
-*ミ💖 𝙷𝙾𝙻𝙰 ✨${name}✨, 𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝙴𝙻 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 𝙳𝙴 𝚃𝙷𝙴 𝙼𝚈𝚂𝚃𝙸𝙲 - 𝙱𝙾𝚃 💖彡*
+let str = 
+`*╭━━━〔 𝙈𝙀𝙉𝙐 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙊 〕━━━⬣*
+*┆⦒ 𓃠 𝙑𝙀𝙍𝙎𝙄𝙊𝙉 » ${vs}*
+*┆⦒ 𝙁𝙀𝘾𝙃𝘼 » ${week}, ${date}*
+*┆⦒ 𝙏𝙄𝙀𝙈𝙋𝙊 𝘼𝘾𝙏𝙄𝙑𝙊 » ${uptime}*
+*┆⦒ 𝙐𝙎𝙐𝘼𝙍𝙄𝙊𝙎 » ${Object.keys(global.db.data.users).length}*
+*╰*┅┅┅┅┅┅┅┅┅┅┅┅┅ *✧* 
 
-function _0x4ad1(_0x32c881,_0x18800b){var _0xc90940=_0xc909();return _0x4ad1=function(_0x4ad15e,_0x2c2c53){_0x4ad15e=_0x4ad15e-0x82;var _0x5ca55c=_0xc90940[_0x4ad15e];return _0x5ca55c;},_0x4ad1(_0x32c881,_0x18800b);}var _0x2b6e5e=_0x4ad1;(function(_0x3cf06c,_0x400c42){var _0x9cebf7=_0x4ad1,_0x37220c=_0x3cf06c();while(!![]){try{var _0x5d12b9=parseInt(_0x9cebf7(0x8d))/0x1*(-parseInt(_0x9cebf7(0xc3))/0x2)+parseInt(_0x9cebf7(0xab))/0x3*(-parseInt(_0x9cebf7(0xcd))/0x4)+parseInt(_0x9cebf7(0x83))/0x5+parseInt(_0x9cebf7(0xb4))/0x6+parseInt(_0x9cebf7(0xc0))/0x7*(-parseInt(_0x9cebf7(0x9e))/0x8)+parseInt(_0x9cebf7(0xb8))/0x9*(-parseInt(_0x9cebf7(0xcb))/0xa)+parseInt(_0x9cebf7(0xa4))/0xb;if(_0x5d12b9===_0x400c42)break;else _0x37220c['push'](_0x37220c['shift']());}catch(_0x36d1b2){_0x37220c['push'](_0x37220c['shift']());}}}(_0xc909,0xd4c93),exports[_0x2b6e5e(0x91)]=_0x5a17ec=>{var _0x172fb9=_0x2b6e5e;return'\x0a╭╾┅≼☬≽⋆ͦ☬⋆ͦ≼☬≽┅╼╮\x0a\x20\x20\x20\x20\x20TURBO⚡BOT\x20👇🏻\x20https://youtube.com/c/turbontr1?sub_confirmatión=1\x0a✦˖⏝࣪꒷꒦꒦꒷꒦⏝⏝꒦꒷˖\x20࣪✦\x0a\x20\x20\x0a╭•⋆҈͜͡➣⋆⋆҈͜͡\x20⋆⸙⋆҈͜͡✪⋆҈͜͡\x20⋆⸙⋆҈͜͡\x20◄⋆҈͜͡•╮\x0a╽\x20\x20\x20➣͜͡᳆⃟⋆MAIN᳆͜͡➣\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0xb2)+_0x5a17ec+'bot\x20<text>\x0a├➽\x20'+_0x5a17ec+'info\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0x84)+_0x5a17ec+'ping\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0xb3)+_0x5a17ec+'join\x20<link>\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0xd2)+_0x5a17ec+'fake\x20text|@user|text\x0a├➽\x20'+_0x5a17ec+'pregunta\x0a╰─═•⋆ঈ❥🔮❥ঈ⋆•═─╯\x0a\x0a╭─═•⋆ঈ❥💮❥ঈ⋆•═─╮\x0a╽\x20\x20➣͜͡᳆⃟⋆GAMES᳆͜͡➣\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0x9b)+_0x5a17ec+_0x172fb9(0xac)+_0x5a17ec+_0x172fb9(0x85)+_0x5a17ec+_0x172fb9(0xcc)+_0x5a17ec+_0x172fb9(0x97)+_0x5a17ec+_0x172fb9(0x93)+_0x5a17ec+_0x172fb9(0x8f)+_0x5a17ec+_0x172fb9(0xc8)+_0x5a17ec+_0x172fb9(0x9f)+_0x5a17ec+_0x172fb9(0x9d)+_0x5a17ec+'man\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0xad)+_0x5a17ec+_0x172fb9(0xa1)+_0x5a17ec+_0x172fb9(0x87)+_0x5a17ec+_0x172fb9(0x9a)+_0x5a17ec+_0x172fb9(0xca)+_0x5a17ec+'q\x0a╰─═•⋆ঈ❥🍁❥ঈ⋆•═─╯\x0a\x0a╭─═•⋆ঈ❥💥❥ঈ⋆•═─╮\x0a╽➣͜͡᳆⃟EDUCACIÓN᳆͜͡➣\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0xa3)+_0x5a17ec+_0x172fb9(0xb5)+_0x5a17ec+_0x172fb9(0xa8)+_0x5a17ec+_0x172fb9(0xa9)+_0x5a17ec+_0x172fb9(0x90)+_0x5a17ec+_0x172fb9(0xaf)+_0x5a17ec+'ytmp3\x20<link\x20yt>\x0a├➽\x20'+_0x5a17ec+'ytmp4\x20<link\x20yt>\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0xa0)+_0x5a17ec+'tiktok\x20<link>\x0a├➽\x20'+_0x5a17ec+'tiktoknowm\x20<link>\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0x86)+_0x5a17ec+_0x172fb9(0xd1)+_0x5a17ec+_0x172fb9(0x96)+_0x5a17ec+'blackpill\x20<text>\x0a├➽\x20'+_0x5a17ec+'sans\x20<text>\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0xb6)+_0x5a17ec+_0x172fb9(0x94)+_0x5a17ec+_0x172fb9(0xa5)+_0x5a17ec+_0x172fb9(0xb1)+_0x5a17ec+'addav\x20<text>\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0x92)+_0x5a17ec+_0x172fb9(0xc4)+_0x5a17ec+'getstick\x20<text>\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0xc5)+_0x5a17ec+'listmedia\x0a╰─═•⋆ঈ❥🍁❥ঈ⋆•═─╯\x0a\x0a╭─═•⋆ঈ❥💮❥ঈ⋆•═─╮\x0a╽\x20\x20➣͜͡᳆⃟⋆VOTING᳆͜͡➣\x0a├➽\x20'+_0x5a17ec+'voting\x20<text>\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0xbf)+_0x5a17ec+_0x172fb9(0xce)+_0x5a17ec+'setwelcome\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0xbe)+_0x5a17ec+_0x172fb9(0xc2)+_0x5a17ec+_0x172fb9(0xa7)+_0x5a17ec+_0x172fb9(0x8c)+_0x5a17ec+_0x172fb9(0x8e)+_0x5a17ec+_0x172fb9(0xbb)+_0x5a17ec+_0x172fb9(0xa6)+_0x5a17ec+_0x172fb9(0xaa)+_0x5a17ec+_0x172fb9(0xbd)+_0x5a17ec+_0x172fb9(0xcf)+_0x5a17ec+_0x172fb9(0x8a)+_0x5a17ec+_0x172fb9(0x88)+_0x5a17ec+_0x172fb9(0xbc)+_0x5a17ec+_0x172fb9(0xc9)+_0x5a17ec+'add\x20<numero>\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0xae)+_0x5a17ec+'promote\x20@user\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0xb9)+_0x5a17ec+'warn\x20@user\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0xc6)+_0x5a17ec+'warns\x20@user\x0a╰─═•⋆ঈ❥☣️❥ঈ⋆•═─╯\x0a\x0a╭─═•⋆ঈ❥🧿❥ঈ⋆•═─╮\x0a╽\x20\x20➣͜͡᳆⃟⋆GRUPO᳆͜͡➣\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0x8b)+_0x5a17ec+_0x172fb9(0x99)+_0x5a17ec+_0x172fb9(0xba)+_0x5a17ec+_0x172fb9(0xa2)+_0x5a17ec+'link\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0x98)+_0x5a17ec+_0x172fb9(0x82)+_0x5a17ec+_0x172fb9(0xc1)+_0x5a17ec+_0x172fb9(0xb0)+_0x5a17ec+_0x172fb9(0xb7)+_0x5a17ec+'ban\x20@user\x0a├➽\x20'+_0x5a17ec+'unban\x20@user\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0x95)+_0x5a17ec+_0x172fb9(0xd0)+_0x5a17ec+'update\x0a├➽\x20'+_0x5a17ec+_0x172fb9(0x89)+_0x5a17ec+_0x172fb9(0x9c)+_0x5a17ec+_0x172fb9(0xc7)+_0x5a17ec+'listreport\x0a├➽\x20$\x0a├➽\x20>\x0a╰─═•⋆ঈ❥🔮❥ঈ⋆•═─╯\x0a\x0a╭╾┅≼☬≽.𓀬.≼☬≽┅╼╮\x0a╽\x20\x20☬✪𝐂𝐫𝐞𝐚𝐝𝐨𝐫𝐞𝐬✪☬\x20╽\x0a╿☞𝐓𝐔𝐑𝐁𝐎☬𝐍𝐓𝐑✪.li\x20╿\x0a╰╾┅≼☬≽.𓀬.≼☬≽┅╼╯';});function _0xc909(){var _0x16f433=['profile\x0a├➽\x20','7188100XFULAv','language\x0a├➽\x20','ppt\x0a╰─═•⋆ঈ❥💮❥ঈ⋆•═─╯\x0a\x0a╭─═•⋆ঈ❥🧿❥ঈ⋆•═─╮\x0a╽\x20➣͜͡᳆⃟⋆STICKER᳆͜͡➣\x20\x0a├➽\x20','tiktokaudio\x20<link>\x0a╰─═•⋆ঈ❥🔮❥ঈ⋆•═─╯\x0a\x0a╭─═•⋆ঈ❥⚡❥ঈ⋆•═─╮\x0a╽➣͜͡᳆⃟TEXTMAKER᳆͜͡➣\x0a├➽\x20','fakethumb\x0a├➽\x20','setppgp\x0a├➽\x20','setppbot\x0a├➽\x20','tagall\x0a├➽\x20','welcome\x20on/off\x0a├➽\x20','simulate\x20<welcome/bye>\x0a├➽\x20','5JvicaY','group\x20<open/close>\x0a├➽\x20','attp\x0a╰─═•⋆ঈ❥🧿❥ঈ⋆•═─╯\x0a\x0a╭─═•⋆ঈ❥💝❥ঈ⋆•═─╮\x0a╽\x20➣͜͡᳆⃟⋆PICTURE᳆͜͡➣\x0a├➽\x20','play2\x0a├➽\x20','menu','getimg\x20<text>\x0a├➽\x20','toimg\x0a├➽\x20','addimg\x20<text>\x0a├➽\x20','view\x0a├➽\x20','typewriter\x20<text>\x0a├➽\x20','take\x20<nombre>|<autor>\x0a├➽\x20','infogp\x0a├➽\x20','antidelete\x20on/off\x0a├➽\x20','tomp3\x0a├➽\x20','verdad\x0a├➽\x20','setfakethumb\x0a├➽\x20','girl\x0a├➽\x20','16iLpZsg','imagen\x0a├➽\x20','igdl\x20<link>\x0a├➽\x20','afk\x20<razon>\x0a├➽\x20','antilink\x20on/off\x0a├➽\x20','translate\x20<lang><text>\x0a╰─═•⋆ঈ❥💥❥ঈ⋆•═─╯\x0a\x0a╭─═•⋆ঈ❥🏮❥ঈ⋆•═─╮\x0a╽➣͜͡᳆⃟⋆BUSQUEDA᳆͜͡➣\x0a├➽\x20','29587272hCXFCS','addvid\x20<text>\x0a├➽\x20','banchat\x0a├➽\x20','delbye\x0a├➽\x20','ytsearch\x0a╰─═•⋆ঈ❥🏮❥ঈ⋆•═─╯\x0a\x0a╭─═•⋆ঈ❥🔮❥ঈ⋆•═─╮\x0a╽➣͜͡᳆⃟DOWNLOAD᳆͜͡➣\x0a├➽\x20','play\x0a├➽\x20','unbanchat\x0a├➽\x20','1582311ZPwVmX','reto\x0a├➽\x20','wallpaper\x0a╰─═•⋆ঈ❥💝❥ঈ⋆•═─╯\x0a\x0a╭─═•⋆ঈ❥🍁❥ঈ⋆•═─╮\x0a╽\x20\x20➣͜͡᳆⃟⋆TOOLS᳆͜͡➣\x0a├\x20','kick\x20@user\x0a├➽\x20','playvid\x0a├➽\x20','addpremium\x20@user\x0a├➽\x20','addstick\x20<text>\x0a├➽\x20','chatbot\x20on/off\x0a├➽\x20','owner\x0a├➽\x20','6025278Pbkfid','playstore\x0a├➽\x20','castle\x20<text>\x0a╰─═•⋆ঈ❥⚡❥ঈ⋆•═─╯\x0a\x0a╭─═•⋆ঈ❥🍁❥ঈ⋆•═─╮\x0a╽➣͜͡᳆⃟⋆DATABASE᳆͜͡➣\x0a├➽\x20','delpremium\x20@user\x0a├➽\x20','36YhVwFE','demote\x20@user\x0a├➽\x20','detect\x20on/off\x0a├➽\x20','resetlink\x0a├➽\x20','setname\x20<text>\x0a├➽\x20','hidetag\x0a├➽\x20','seybye\x0a├➽\x20','delvote\x0a├➽\x20','2720494VmyrGW','invite\x20<549xxxx>\x20\x0a╰─═•⋆ঈ❥🧿❥ঈ⋆•═─╯\x0a\x0a╭─═•⋆ঈ❥🔮❥ঈ⋆•═─╮\x0a╽\x20\x20➣͜͡᳆⃟⋆OWNER᳆͜͡➣\x0a├➽\x20','delwelcome\x0a├➽\x20','386886lLfEbP','getvid\x20<text>\x0a├➽\x20','getav\x20<text>\x0a├➽\x20','delwarn\x20@user\x0a├➽\x20','setprefix\x0a├➽\x20','pinterest\x0a├➽\x20','setdesc\x20<text>\x0a├➽\x20','toav\x0a├➽\x20','2333010jkuKOc','sticker\x20<nombre>|<autor>\x0a├➽\x20','12BoyZmG','checkvote\x0a╰─═•⋆ঈ❥💮❥ঈ⋆•═─╯\x0a\x0a╭─═•⋆ঈ❥☣️❥ঈ⋆•═─╮\x0a╽\x20\x20➣͜͡᳆⃟⋆ADMIN᳆͜͡➣\x0a├➽\x20','notify\x0a├➽\x20','grouplist\x0a├➽\x20','nameninja\x20<text>\x0a├➽\x20','report\x20<text>\x0a╰•⋆҈͜͡➣⋆⋆҈͜͡\x20⋆⸙⋆҈͜͡✪⋆҈͜͡\x20⋆⸙⋆҈͜͡\x20◄⋆҈͜͡•╯\x0a\x0a≡\x20List\x20Menu\x0a\x0a╭─═•⋆ঈ❥🔮❥ঈ⋆•═─╮\x0a╽\x20\x20\x20➣͜͡᳆⃟⋆FUN᳆͜͡➣\x0a├➽\x20'];_0xc909=function(){return _0x16f433;};return _0xc909();}
+*╭━〔* ${username} *〕━━⬣*
+*┆🧰 EXPERIENCIA ➟ ${exp}*
+*┆🎖️ NIVEL ➟ ${level} || ${user.exp - min}/${xp}*
+*┆⚓ RANGO ➟* ${role}
+*┆💎 DIAMANTES ➟ ${limit}*
+*┆🐈 GATACOINS ➟ ${money}*
+*┆🎟️ PREMIUM ➟* ${global.prem ? '✅' : '❌'}
+*╰*┅┅┅┅┅┅┅┅┅┅┅┅┅ *✧*
+${readMore}
+*╭━〔 INFORMACIÓN DE GATABOT 〕━⬣*
+┃💫➺ _${usedPrefix}cuentasgatabot | cuentasgb_
+┃💫➺ _${usedPrefix}gruposgb | grupos | groupgb_
+┃💫➺ _${usedPrefix}donar | donate_
+┃💫➺ _${usedPrefix}listagrupos | grouplist_
+┃💫➺ _${usedPrefix}estado | heygata | status_
+┃💫➺ _${usedPrefix}infogata | infobot_
+┃💫➺ _${usedPrefix}creadora | owner_
+┃💫➺ _${usedPrefix}velocidad | ping_
+┃💫➺ _Bot_ 
+┃💫➺ _términos y condiciones_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━〔 REPORTAR COMANDO 〕━⬣*
+┃ *Reporta con este comando de haber*
+┃ *Fallas para poder Solucionar!!*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃ 💌 _${usedPrefix}reporte *texto*_
+┃ 💌 _${usedPrefix}report *texto*_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━〔 ÚNETE AL GRUPO 〕━⬣*
+┃ *Une a GataBot en Grupos!!*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃🪅 _${usedPrefix}join *enlace*_
+┃🪅 _${usedPrefix}unete *enlace*_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━〔 JUEGOS - MULTI JUEGOS 〕━⬣*
+┃🎡➺ _${usedPrefix}mates | matemáticas | math_
+┃🎡➺ _${usedPrefix}ppt *piedra : papel : tijera*_
+┃🎡➺ _${usedPrefix}topgays_
+┃🎡➺ _${usedPrefix}topotakus_
+┃🎡➺ _${usedPrefix}topintegrantes | topintegrante_
+┃🎡➺ _${usedPrefix}toplagrasa | topgrasa_
+┃🎡➺ _${usedPrefix}toppanafrescos | toppanafresco_
+┃🎡➺ _${usedPrefix}topshiposters | topshipost_
+┃🎡➺ _${usedPrefix}toppajeros | toppajer@s_
+┃🎡➺ _${usedPrefix}toplindos | toplind@s_
+┃🎡➺ _${usedPrefix}topputos | topput@s_
+┃🎡➺ _${usedPrefix}topfamosos | topfamos@s_
+┃🎡➺ _${usedPrefix}topparejas | top5parejas_
+┃🎡➺ _${usedPrefix}gay | gay *@tag*_
+┃🎡➺ _${usedPrefix}gay2 *nombre : @tag*_
+┃🎡➺ _${usedPrefix}lesbiana *nombre : @tag*_
+┃🎡➺ _${usedPrefix}manca *nombre : @tag*_
+┃🎡➺ _${usedPrefix}manco *nombre : @tag*_
+┃🎡➺ _${usedPrefix}pajero *nombre : @tag*_
+┃🎡➺ _${usedPrefix}pajera *nombre : @tag*_
+┃🎡➺ _${usedPrefix}puto *nombre : @tag*_
+┃🎡➺ _${usedPrefix}puta *nombre : @tag*_
+┃🎡➺ _${usedPrefix}rata *nombre : @tag*_
+┃🎡➺ _${usedPrefix}love *nombre : @tag*_
+┃🎡➺ _${usedPrefix}doxear *nombre : @tag*_
+┃🎡➺ _${usedPrefix}doxxeame_
+┃🎡➺ _${usedPrefix}pregunta *texto*_
+┃🎡➺ _${usedPrefix}apostar | slot *cantidad*_
+┃🎡➺ _${usedPrefix}formarpareja_
+┃🎡➺ _${usedPrefix}dado_
+┃🎡➺ _${usedPrefix}verdad_
+┃🎡➺ _${usedPrefix}reto_
+┃🎡➺ _${usedPrefix}multijuegos_
+┃🎡➺ _${usedPrefix}juegos_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━〔 IA 〕━⬣*
+┃ *Tienes la Ocasión de*
+┃ *Conversar con GataBot!!*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃🪄➺ _${usedPrefix}simi | okgoogle *texto*_
+┃🪄➺ _${usedPrefix}alexa | siri | cortana *texto*_
+┃🪄➺ _${usedPrefix}simsimi | bixby *texto*_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━━━[ AJUSTES - CHATS ]━━━⬣*
+┃ *Configura si eres Propietario(a) y/o*
+┃ *Admin!!*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃⚙️ _${usedPrefix}on *:* off *welcome*_
+┃⚙️ _${usedPrefix}on *:* off *public*_
+┃⚙️ _${usedPrefix}on *:* off *modohorny*_
+┃⚙️ _${usedPrefix}on *:* off *antilink*_
+┃⚙️ _${usedPrefix}on *:* off *antilink2*_
+┃⚙️ _${usedPrefix}on *:* off *detect*_
+┃⚙️ _${usedPrefix}on *:* off *restrict*_
+┃⚙️ _${usedPrefix}on *:* off *pconly*_
+┃⚙️ _${usedPrefix}on *:* off *gconly*_
+┃⚙️ _${usedPrefix}on *:* off *autoread*_
+┃⚙️ _${usedPrefix}on *:* off *audios*_
+┃⚙️ _${usedPrefix}on *:* off *autosticker*_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━[ DESCARGAS | DOWNLOADS ]━⬣*
+┃🚀➺ _${usedPrefix}imagen | image *texto*_
+┃🚀➺ _${usedPrefix}pinterest | dlpinterest *texto*_
+┃🚀➺ _${usedPrefix}wallpaper|wp *texto*_
+┃🚀➺ _${usedPrefix}play | play2 *texto o link*_
+┃🚀➺ _${usedPrefix}play.1 *texto o link*_
+┃🚀➺ _${usedPrefix}play.2 *texto o link*_ 
+┃🚀➺ _${usedPrefix}ytmp3 | yta *link*_
+┃🚀➺ _${usedPrefix}ytmp4 | ytv *link*_
+┃🚀➺ _${usedPrefix}facebook | fb *link*_
+┃🚀➺ _${usedPrefix}instagram *link video o imagen*_
+┃🚀➺ _${usedPrefix}verig | igstalk *usuario(a)*_
+┃🚀➺ _${usedPrefix}ighistoria | igstory *usuario(a)*_
+┃🚀➺ _${usedPrefix}tiktok *link*_
+┃🚀➺ _${usedPrefix}tiktokfoto | tiktokphoto *usuario(a)*_
+┃🚀➺ _${usedPrefix}vertiktok | tiktokstalk *usuario(a)*_
+┃🚀➺ _${usedPrefix}mediafire | dlmediafire *link*_
+┃🚀➺ _${usedPrefix}clonarepo | gitclone *link*_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━[ CONFIGURACIÓN - GRUPOS ]━⬣*
+┃ *Mejora tú Grupo con GataBot!!*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃🌐➺ _${usedPrefix}add *numero*_
+┃🌐➺ _${usedPrefix}sacar | ban | kick  *@tag*_
+┃🌐➺ _${usedPrefix}grupo *abrir : cerrar*_
+┃🌐➺ _${usedPrefix}group *open : close*_
+┃🌐➺ _${usedPrefix}daradmin | promote *@tag*_
+┃🌐➺ _${usedPrefix}quitar | demote *@tag*_
+┃🌐➺ _${usedPrefix}banchat_
+┃🌐➺ _${usedPrefix}unbanchat_
+┃🌐➺ _${usedPrefix}banuser *@tag*_
+┃🌐➺ _${usedPrefix}unbanuser *@tag*_
+┃🌐➺ _${usedPrefix}admins *texto*_
+┃🌐➺ _${usedPrefix}invocar *texto*_
+┃🌐➺ _${usedPrefix}tagall *texto*_
+┃🌐➺ _${usedPrefix}hidetag *texto*_
+┃🌐➺ _${usedPrefix}infogrupo | infogroup_
+┃🌐➺ _${usedPrefix}enlace | link_
+┃🌐➺ _${usedPrefix}newnombre | setname *texto*_
+┃🌐➺ _${usedPrefix}newdesc | setdesc *texto*_
+┃🌐➺ _${usedPrefix}setwelcome *texto*_
+┃🌐➺ _${usedPrefix}setbye *texto*_
+┃🌐➺ _${usedPrefix}on_
+┃🌐➺ _${usedPrefix}off_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━━━[ CONTENIDO 🔞 ]━━⬣*
+┃ *Visita el Menú de Comandos*
+┃ *Para Adultos!!*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃🔞➺ _${usedPrefix}hornymenu_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━[ CONVERTIDORES 🛰️ ]━⬣*
+┃ *Convierte sticker en imagen!!*
+┃ *Crea enlace de archivos!!*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃🛰️➺ _${usedPrefix}toimg | img | jpg *sticker*_
+┃🛰️➺ _${usedPrefix}tomp3 | mp3 *video o nota de voz*_
+┃🛰️➺ _${usedPrefix}tovn | vn *video o audio*_
+┃🛰️➺ _${usedPrefix}tovideo *audio*_
+┃🛰️➺ _${usedPrefix}tourl *video, imagen*_
+┃🛰️➺ _${usedPrefix}toenlace  *video, imagen o audio*_
+┃🛰️➺ _${usedPrefix}tts es *texto*_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━━━[ LOGOS 🔆 ]━━⬣*
+┃ *Crea Logos o personaliza*
+┃ *la información del Logo!!*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃🔆 _${usedPrefix}logos *efecto texto*_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━━━[ EFECTOS ⛺ ]━━⬣*
+┃⛺ _${usedPrefix}simpcard *@tag*_
+┃⛺ _${usedPrefix}hornycard *@tag*_
+┃⛺ _${usedPrefix}lolice *@tag*_
+┃⛺ _${usedPrefix}ytcomment *texto*_
+┃⛺ _${usedPrefix}itssostupid_
+┃⛺ _${usedPrefix}pixelar_
+┃⛺ _${usedPrefix}blur_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━[ RANDOM | ANIME 🧩 ]━⬣*
+┃🧩 _${usedPrefix}cristianoronaldo_
+┃🧩 _${usedPrefix}messi_
+┃🧩 _${usedPrefix}meme_
+┃🧩 _${usedPrefix}itzy_
+┃🧩 _${usedPrefix}blackpink_
+┃🧩 _${usedPrefix}kpop *blackpink : exo : bts*_
+┃🧩 _${usedPrefix}lolivid_
+┃🧩 _${usedPrefix}loli_
+┃🧩 _${usedPrefix}navidad_
+┃🧩 _${usedPrefix}ppcouple_
+┃🧩 _${usedPrefix}neko_
+┃🧩 _${usedPrefix}waifu_
+┃🧩 _${usedPrefix}akira_
+┃🧩 _${usedPrefix}akiyama_
+┃🧩 _${usedPrefix}anna_
+┃🧩 _${usedPrefix}asuna_
+┃🧩 _${usedPrefix}ayuzawa_
+┃🧩 _${usedPrefix}boruto_
+┃🧩 _${usedPrefix}chiho_
+┃🧩 _${usedPrefix}chitoge_
+┃🧩 _${usedPrefix}deidara_
+┃🧩 _${usedPrefix}erza_
+┃🧩 _${usedPrefix}elaina_
+┃🧩 _${usedPrefix}eba_
+┃🧩 _${usedPrefix}emilia_
+┃🧩 _${usedPrefix}hestia_
+┃🧩 _${usedPrefix}hinata_
+┃🧩 _${usedPrefix}inori_
+┃🧩 _${usedPrefix}isuzu_
+┃🧩 _${usedPrefix}itachi_
+┃🧩 _${usedPrefix}itori_
+┃🧩 _${usedPrefix}kaga_
+┃🧩 _${usedPrefix}kagura_
+┃🧩 _${usedPrefix}kaori_
+┃🧩 _${usedPrefix}keneki_
+┃🧩 _${usedPrefix}kotori_
+┃🧩 _${usedPrefix}kurumi_
+┃🧩 _${usedPrefix}madara_
+┃🧩 _${usedPrefix}mikasa_
+┃🧩 _${usedPrefix}miku_
+┃🧩 _${usedPrefix}minato_
+┃🧩 _${usedPrefix}naruto_
+┃🧩 _${usedPrefix}nezuko_
+┃🧩 _${usedPrefix}sagiri_
+┃🧩 _${usedPrefix}sasuke_
+┃🧩 _${usedPrefix}sakura_
+┃🧩 _${usedPrefix}cosplay_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━[ MODIFICAR AUDIO 🧰 ]━⬣*
+┃ *Realiza Modificaciones*
+┃ *al Audio o Nota de Voz!!*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃🧰 _${usedPrefix}bass_
+┃🧰 _${usedPrefix}blown_
+┃🧰 _${usedPrefix}deep_
+┃🧰 _${usedPrefix}earrape_
+┃🧰 _${usedPrefix}fast_
+┃🧰 _${usedPrefix}fat_
+┃🧰 _${usedPrefix}nightcore_
+┃🧰 _${usedPrefix}reverse_
+┃🧰 _${usedPrefix}robot_
+┃🧰 _${usedPrefix}slow_
+┃🧰 _${usedPrefix}smooth_
+┃🧰 _${usedPrefix}tupai_
+*╰━━━━━━━━━━━━⬣*
+
+*<ℂℍ𝔸𝕋 𝔸ℕ𝕆ℕ𝕀𝕄𝕆/>*
+
+° ඬ⃟📳 _${usedPrefix}start_
+° ඬ⃟📳 _${usedPrefix}next_
+° ඬ⃟📳 _${usedPrefix}leave_
+
+*╭━━[ BÚSQUEDAS 🔍 ]━━⬣*
+┃ *Busca lo que quieres con GataBot!!*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃🔍➺ _${usedPrefix}animeinfo *texto*_
+┃🔍➺ _${usedPrefix}mangainfo *texto*_
+┃🔍➺ _${usedPrefix}google *texto*_
+┃🔍➺ _${usedPrefix}letra | lirik *texto*_
+┃🔍➺ _${usedPrefix}ytsearch | yts *texto*_
+┃🔍➺ _${usedPrefix}wiki | wikipedia *texto*_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━━━[ AUDIOS 🔊 ]━━⬣*
+┃ *Visita el Menú de Audios!!*
+┃ *Disfruta de una Gran Variedad*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃➫🔊 _${usedPrefix}audios_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━━[ HERRAMIENTAS 🛠️ ]━━⬣*
+┃🛠️ _${usedPrefix}afk *motivo*_
+┃🛠️ _${usedPrefix}acortar *url*_
+┃🛠️ _${usedPrefix}calc *operacion math*_
+┃🛠️ _${usedPrefix}del *respondre a mensaje del Bot*_
+┃🛠️ _${usedPrefix}qrcode *texto*_
+┃🛠️ _${usedPrefix}readmore *texto1|texto2*_
+┃🛠️ _${usedPrefix}spamwa *numero|texto|cantidad*_
+┃🛠️ _${usedPrefix}styletext *texto*_
+┃🛠️ _${usedPrefix}traducir *texto*_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━━━[ FUNCIÓN RPG ]━━⬣*
+┃ *Compra, Adquiere Recuersos*
+┃ *Mejora Tú Nivel y Rango!!*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃⚗️➺ _${usedPrefix}transfer *tipo cantidad @tag*_
+┃⚗️➺ _${usedPrefix}dar *tipo cantidad @tag*_
+┃⚗️➺ _${usedPrefix}enviar *tipo cantidad @tag*_
+┃⚗️➺ _${usedPrefix}transfer *tipo cantidad @user*_
+┃⚗️➺ _${usedPrefix}balance_
+┃⚗️➺ _${usedPrefix}experiencia | exp_
+┃⚗️➺ _${usedPrefix}nivel | level | lvl_
+┃⚗️➺ _${usedPrefix}rol | rango_
+┃⚗️➺ _${usedPrefix}minardiamantes | minargemas_
+┃⚗️➺ _${usedPrefix}minargatacoins | minarcoins_
+┃⚗️➺ _${usedPrefix}minarexperiencia | minarexp_
+┃⚗️➺ _${usedPrefix}minar *:* minar2 *:* minar3_
+┃⚗️➺ _${usedPrefix}buy *cantidad*_
+┃⚗️➺ _${usedPrefix}buyall_
+┃⚗️➺ _${usedPrefix}buy2 *cantidad*__
+┃⚗️➺ _${usedPrefix}buyall2_
+┃⚗️➺ _${usedPrefix}verificar | registrar_
+┃⚗️➺ _${usedPrefix}perfil | profile_
+┃⚗️➺ _${usedPrefix}myns_
+┃⚗️➺ _${usedPrefix}unreg *numero de serie*_
+┃⚗️➺ _${usedPrefix}claim_
+┃⚗️➺ _${usedPrefix}trabajar | work_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━━━[ TOP EN GATABOT ]━━⬣*
+┃ *Averigua en que Top te encuentras!!*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃🏆➺ _${usedPrefix}top | lb | leaderboard_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━[ STICKERS Y FILTROS ]━⬣*
+┃ *Realiza stickers o crea*
+┃ *stickers con filtros!!*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃🎐 _${usedPrefix}sticker | s *imagen o video*_
+┃🎐 _${usedPrefix}sticker | s *url de tipo jpg*_
+┃🎐 _${usedPrefix}emojimix *😺+😆*_
+┃🎐 _${usedPrefix}scircle | círculo *imagen*_
+┃🎐 _${usedPrefix}semoji | emoji *tipo emoji*_
+┃🎐 _${usedPrefix}attp *texto*_
+┃🎐 _${usedPrefix}attp2 *texto*_
+┃🎐 _${usedPrefix}ttp *texto*_
+┃🎐 _${usedPrefix}ttp2 *texto*_
+┃🎐 _${usedPrefix}ttp3 *texto*_
+┃🎐 _${usedPrefix}ttp4 *texto*_
+┃🎐 _${usedPrefix}ttp5 *texto*_
+┃🎐 _${usedPrefix}ttp6 *texto*_
+┃🎐 _${usedPrefix}dado_
+┃🎐 _${usedPrefix}stickermarker *efecto : responder a imagen*_
+┃🎐 _${usedPrefix}stickerfilter *efecto : responder a imagen*_
+┃🎐 _${usedPrefix}cs *:* cs2_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━[ MODIFICAR STICKERS ]━⬣*
+┃ *Personaliza la información del Sticker!!*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃💡 _${usedPrefix}wm *packname|author*_
+┃💡 _${usedPrefix}wm *texto1|texto2*_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━[ STICKERS DINÁMICOS ]━⬣*
+┃ *Realiza acciones con Stickers*
+┃ *Etiquetando a alguien!!*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃⛱️ _${usedPrefix}palmaditas | pat *@tag*_
+┃⛱️ _${usedPrefix}bofetada | slap *@tag*_
+┃⛱️ _${usedPrefix}golpear *@tag*_
+┃⛱️ _${usedPrefix}besar | kiss *@tag*_
+┃⛱️ _${usedPrefix}alimentar | food *@tag*_
+*╰━━━━━━━━━━━━⬣*
+
+*╭━[ MENU PARA PROPIETARIO/A ]━⬣*
+┃ *Comandos solo para Propietario/a!!*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃💎➺ _${usedPrefix}dardiamantes *cantidad*_
+┃💎➺ _${usedPrefix}darxp *cantidad*_
+┃💎➺ _${usedPrefix}dargatacoins *cantidad*_
+┃💎➺ _${usedPrefix}cajafuerte_
+┃💎➺ _${usedPrefix}comunicar | broadcastall | bc *texto*_
+┃💎➺ _${usedPrefix}broadcastchats | bcc *texto*_
+┃💎➺ _${usedPrefix}comunicarpv *texto*_
+┃💎➺ _${usedPrefix}broadcastgc *texto*_
+┃💎➺ _${usedPrefix}comunicargrupos *texto*_
+┃💎➺ _${usedPrefix}borrartmp | cleartmp_
+┃💎➺ _${usedPrefix}delexp *@tag*_
+┃💎➺ _${usedPrefix}delgatacoins *@tag*_
+┃💎➺ _${usedPrefix}deldiamantes *@tag*_
+┃💎➺ _${usedPrefix}reiniciar | restart_
+┃💎➺ _${usedPrefix}ctualizar | update_
+┃💎➺ _${usedPrefix}addprem | +prem *@tag*_
+┃💎➺ _${usedPrefix}delprem | -prem *@tag*_
+┃💎➺ _${usedPrefix}listapremium | listprem_
+┃💎➺ _${usedPrefix}añadirdiamantes *@tag cantidad*_
+┃💎➺ _${usedPrefix}añadirxp *@tag cantidad*_
+┃💎➺ _${usedPrefix}añadirgatacoins *@tag cantidad*_
+*╰━━━━━━━━━━━━⬣*
 `.trim()
 conn.sendHydrated2(m.chat, str, wm, pp, 'https://youtu.be/BEzODBDiuMg', 'YOUTUBE', 'https://github.com/', '𝙶𝙸𝚃𝙷𝚄𝙱', [
 ['📮 𝙳𝙾𝙽𝙰𝚁 📮', '/donasi'],
