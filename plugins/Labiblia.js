@@ -1,6 +1,7 @@
 const { levelling } = '../lib/levelling.js'
 import PhoneNumber from 'awesome-phonenumber'
 let handler = async (m, { conn, usedPrefix }) => {
+let vn = './media/menu.mp3'
 let pp = './src/1.jpg'
 try {
 } catch (e) {
@@ -55,6 +56,12 @@ let str = `*╭┅─═￭৯•𓆩❤︎𞋯𓆪•৯￭═─┅╮*
 conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/keili/love', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
 ['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
 ], m)
+await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, {
+type: 'audioMessage', 
+ptt: true})
+} catch (e) {
+conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸𝙴𝙽𝙴 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝚈 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙴𝙽𝚅𝙸𝙰𝚁𝙻𝙾, 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃*', m)
+throw e
 }}
 handler.help = ['menu', 'help2', '?', 'menu2']
 handler.tags = ['main']
