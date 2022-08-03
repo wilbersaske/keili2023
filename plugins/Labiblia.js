@@ -60,7 +60,8 @@ readmore: readMore
 }
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
-let str = `*╭┅─═￭৯•𓆩❤︎𞋯𓆪•৯￭═─┅╮*
+let str = `
+*╭┅─═￭৯•𓆩❤︎𞋯𓆪•৯￭═─┅╮*
 ┃ *🔥Hola ${name},*
 *╰┅─═￭৯•𓆩❤︎𞋯𓆪•৯￭═─┅╯*
 𖥔 ִ ۫  ּ ⋆ ִ ۫  ּ ⊹  ˑ ִ  ִֶָ  ִ ۫  ּ 𖥔 ִ ۫  ּ ⊹  ˑ  ִ ⋆ִ ۫  ּ ˑ ִ  ִֶָ
