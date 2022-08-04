@@ -59,8 +59,8 @@ conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/', '𝙶𝙸𝚃𝙷�
 ['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
 ], m)
 }}
-handler.help = ['menu2', 'help2', '?2', 'menuaudios']
-handler.tags = ['main']
+handler.help = ['menubiblia']
+handler.tags = ['menubiblia']
 handler.command = /^(menubiblia|menubi)$/i
 handler.fail = null
 export default  handler
