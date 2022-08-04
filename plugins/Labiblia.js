@@ -4,6 +4,9 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) =
 try {
 let vn = './media/menu.mp3'
 let pp = './111.mp4'
+conn.sendFile(m.chat, vn, 'a.mp3', null, m, true, {
+type: 'audioMessage', 
+ptt: true 
 try {
 } catch (e) {
 } finally {
@@ -59,9 +62,6 @@ let str = `
 conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
 ['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
 ], m)
-await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, {
-type: 'audioMessage', 
-ptt: true})
 }}
 handler.help = ['menu2', 'help2', '?2', 'menuaudios']
 handler.tags = ['main']
