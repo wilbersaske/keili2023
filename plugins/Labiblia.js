@@ -4,9 +4,9 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) =
 try {
 let vn = './media/menu.mp3'
 let pp = './111.mp4'
-conn.sendFile(m.chat, vn, 'a.mp3', null, m, true, {
+await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, {
 type: 'audioMessage', 
-ptt: true 
+ptt: true})
 try {
 } catch (e) {
 } finally {
