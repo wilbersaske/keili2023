@@ -1,12 +1,7 @@
 const { levelling } = '../lib/levelling.js'
 import PhoneNumber from 'awesome-phonenumber'
-let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) => {
-try {
-let vn = './media/menu.mp3'
-let pp = './111.mp4'
-await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, {
-type: 'audioMessage', 
-ptt: true})
+let handler = async (m, { conn, usedPrefix }) => {
+let pp = './src/2.mp4'
 try {
 } catch (e) {
 } finally {
